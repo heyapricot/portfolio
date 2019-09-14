@@ -1,6 +1,14 @@
+h1 {
+    color: rgb(252,199,85)
+}
+
 #main {
     height: 93vh;
     background-color: black;
+}
+
+.description {
+    color: rgb(36,201,169)
 }
 
 .navbar-neon {
@@ -11,11 +19,15 @@
     color: rgba(255,137,41,.5);
 }
 
-.navbar-neon .navbar-nav .nav-link.active {
-    color: rgba(255,137,41, 1);
+.navbar-neon .navbar-nav .nav-link.active, .contact a {
+    color: rgb(255,137,41);
 }
 
 .navbar-neon .navbar-toggler {
     color: rgba(255,137,41,.5);
     border-color: rgba(255,137,41,.1);
+}
+
+.summary {
+    color: rgb(255, 81, 108)
 }
