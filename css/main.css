@@ -1,0 +1,21 @@
+#main {
+    height: 93vh;
+    background-color: black;
+}
+
+.navbar-neon {
+    background-color: black;
+}
+
+.navbar-neon .navbar-nav .nav-link {
+    color: rgba(255,137,41,.5);
+}
+
+.navbar-neon .navbar-nav .nav-link.active {
+    color: rgba(255,137,41, 1);
+}
+
+.navbar-neon .navbar-toggler {
+    color: rgba(255,137,41,.5);
+    border-color: rgba(255,137,41,.1);
+}
